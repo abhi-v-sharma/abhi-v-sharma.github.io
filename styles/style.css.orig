@@ -1,0 +1,70 @@
+<<<<<<< HEAD
+h1 {
+	color: #FFFFFF;
+	padding-top: 5%;
+	text-align: center;
+}
+
+h2 {
+	color:#FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	padding-top: 5%;
+	text-align: center;
+}
+
+p {
+	color:#FFFFFF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+=======
+>>>>>>> feb827e1e9f50a58557100df5bb485b8904fdcff
+body {
+    background: #0099FF;
+}
+
+#main {
+    padding-top: 10%;
+}
+
+.code {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+#row {
+    padding-left: 10%;
+    padding-right: 50%;
+}
+
+.fa {
+    padding: 15px;
+    color: #FFFFFF;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
