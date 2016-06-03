@@ -21,6 +21,8 @@ body {
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
+  padding-top: 20px;
+  padding-bottom: 40px;
 }
 
 .container {
@@ -191,7 +193,6 @@ img {
 }
 
 .site-name {
-  margin-top: 23px;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -211,8 +212,7 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  float: left;
   font-family: $helveticaNeue;
   font-size: 18px;
 
