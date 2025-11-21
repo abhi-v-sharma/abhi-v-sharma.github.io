@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Abhi | Home</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Personal site for Abhi" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Abhi</h1>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <section id="hero" class="hero">
+      <div class="container">
+        <h2>Minimum contacts.</h2>
+        <p>
+          Stories and rules. Plenty of signal, plenty of noise.
+        </p>
+        <a class="btn" href="#projects">See my work</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h3>About</h3>
+        <p>
+          Law, military, finance, technology, government.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h3>Projects</h3>
+        <div class="cards">
+          <article class="card">
+            <h4>Crushing 1L</h4>
+            <p>
+              Short description of the project. What it is, who it is for, and
+              what you did.
+            </p>
+            <a href="#" class="card-link">Learn more</a>
+          </article>
+          <article class="card">
+            <h4>LSAT teaching</h4>
+            <p>
+              Short description of your LSAT work. You can link to any public
+              content or profiles.
+            </p>
+            <a href="#" class="card-link">Learn more</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>
+          The best way to reach me is by email at
+          <a href="mailto:your-email@example.com">your-email@example.com</a>.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Abhi Sharma. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Simple script to keep the year up to date
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
