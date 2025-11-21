@@ -31,6 +31,19 @@ a:hover {
 
 /* Header */
 
+.site-logo-title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.site-logo {
+  height: 32px;
+  width: 32px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
 .site-header {
   border-bottom: 1px solid #d7d5ce;
   background: rgba(247, 245, 239, 0.9);
